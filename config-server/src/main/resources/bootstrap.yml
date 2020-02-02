@@ -1,0 +1,14 @@
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: D:/GIT-Test
+        encrypt:
+          enabled: false
+encrypt:
+  key: abcd
+  
+server:
+  port: 8888
+    
